@@ -299,7 +299,7 @@
     <!--Footer-->
     <footer class="footer-section">
       <div class="container footer-container">
-        <div>
+        <div class="footer-adress-container">
           <a class="logo-white link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
 
           <address class="footer-adress">
@@ -325,8 +325,8 @@
           </address>
         </div>
 
-        <div class="footer-socials">
-          <b class="footer-socials-action">присоединяйтесь</b>
+        <div class="footer-socials-container">
+          <strong class="footer-socials-action">присоединяйтесь</strong>
           <ul class="footer-socials-list list">
             <li class="footer-socials-item">
               <a
@@ -385,6 +385,26 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-modal-container">
+          <strong class="footer-modal-action">Подпишитесь на рассылку</strong>
+          <form class="footer-modal-form" name="footer-subscribe-form">
+            <input
+              class="footer-modal-input"
+              type="email"
+              name="footer-subscribe-email"
+              placeholder="E-mail"
+              required
+            />
+
+            <button class="footer-modal-btn" name="footer-subscribe-btn" type="submit">
+              Подписаться
+              <svg class="footer-modal-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-subscribe-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
